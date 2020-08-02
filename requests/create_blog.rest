@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "React patterns 2",
+  "author": "Michael Chan",
+  "url": "https://reactpatterns2.com/",
+  "likes": 5
+}
